@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "This is a repository to solve AdventJS programming challenges made by Midudev",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "jest --verbose --silent"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "repository": {
     "type": "git",
