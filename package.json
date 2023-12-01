@@ -4,7 +4,7 @@
   "description": "This is a repository to solve AdventJS programming challenges made by Midudev",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose --silent"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,9 @@
     "standard": "17.1.0"
   },
   "eslintConfig": {
-    "extends": "./node_modules/standard/eslintrc.json"
+    "extends": "./node_modules/standard/eslintrc.json",
+    "env": {
+      "jest": true
+    }
   }
 }
