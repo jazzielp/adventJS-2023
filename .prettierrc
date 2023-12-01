@@ -1,0 +1,5 @@
+{
+  "spaceBeforeFunctionParen": true,
+  "semi": false,
+  "singleQuote": true
+}
